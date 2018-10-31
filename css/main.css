@@ -26,7 +26,7 @@ body {
   background-color: #D9BB93;
   padding-top: 20px;
   padding-bottom: 20px; }
-.content-container .card {
+.content-container .card-columns .card {
   background-color: #333; }
 
 .footer {

@@ -46,8 +46,10 @@ body {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .card {
-        background-color: #333;
+    .card-columns {
+        .card {
+            background-color: #333;
+        }
     }
 }
 
