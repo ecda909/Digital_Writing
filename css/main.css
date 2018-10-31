@@ -1,3 +1,37 @@
+body {
+  background-color: #333; }
 
+.navbar-light .navbar-brand {
+  color: black;
+  font-size: 25px; }
+
+.nav-item .dropdown .btn {
+  border: none; }
+.nav-item .dropdown .btn:hover {
+  border: none; }
+
+.content-container .jumbotron {
+  margin-bottom: 100px; }
+.content-container .contentrow-1 {
+  background-color: #C2E7F2;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .content-container .contentrow-1 .text {
+    color: black; }
+.content-container .contentrow-2 {
+  background-color: #F1F0E2;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+.content-container .contentrow-3 {
+  background-color: #D9BB93;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+.content-container .card {
+  background-color: #333; }
+
+.footer {
+  margin-top: 100px;
+  padding-top: 20px;
+  background-color: white; }
 
 /*# sourceMappingURL=main.css.map */

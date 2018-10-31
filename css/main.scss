@@ -1,3 +1,58 @@
-#navbarNav{
-    
+$blue: #C2E7F2;
+$badge: #F1F0E2;
+$brown: #D9BB93;
+$Maroon: #F25652;
+body {
+    background-color: #333;
+}
+
+.navbar-light {
+    .navbar-brand {
+        color: black;
+        font-size: 25px;
+    }
+}
+
+.nav-item {
+    .dropdown {
+        .btn {
+            border: none
+        }
+        .btn:hover {
+            border: none;
+        }
+    }
+}
+
+.content-container {
+    .jumbotron {
+        margin-bottom: 100px;
+    }
+    .contentrow-1 {
+        background-color: $blue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .text {
+            color: black;
+        }
+    }
+    .contentrow-2 {
+        background-color: $badge;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .contentrow-3 {
+        background-color: $brown;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .card {
+        background-color: #333;
+    }
+}
+
+.footer {
+    margin-top: 100px;
+    padding-top: 20px;
+    background-color: white;
 }
