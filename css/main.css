@@ -30,8 +30,13 @@ body {
   background-color: #333; }
 
 .footer {
-  margin-top: 100px;
-  padding-top: 20px;
-  background-color: white; }
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .footer p {
+    color: white; }
+  .footer h1 {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px; }
 
 /*# sourceMappingURL=main.css.map */
