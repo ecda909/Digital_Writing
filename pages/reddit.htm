@@ -5,6 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -13,45 +15,39 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="../index.htm">The Spreadable Meme</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../index.htm"><b>TSM</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.htm">Home
-                    <span class="sr-only">(current)</span>
-                </a>
-                </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Meme Timeline
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="oral.htm">Oral Age</a>
-                            <a class="dropdown-item" href="written.htm">Written Age</a>
                             <a class="dropdown-item" href="digital.htm">Digital Age</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Spreadibility
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="about.htm">About</a>
                             <a class="dropdown-item" href="tools.htm">Tools</a>
-                            <a class="dropdown-item" href="types.htm">Types</a>
+                            <a class="dropdown-item" href="trends.htm">Trends</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Channels
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -67,147 +63,106 @@
             </ul>
         </div>
     </nav>
-    <div class="container justify-content-md-center content-container" style="padding-top: 100px">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Reddit</h1>
-                <p class="lead">
-                    Content Realating to Reddit as a channel.
+    <div class="container-fluid content-container-1">
+        <div class="row justify-content-center" style="padding-top: 15%;">
+            <h1 class="title"><i class="fab fa-reddit"></i> Reddit<span class="cursor">|</span></h1>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 20px;">
+            <p>
+                We all know and love Reddit.
+            </p>
+        </div>
+        <div class="row justify-content-center" style="padding-top:10%">
+            <button type="button" class="btn buttonrow" onClick="movemid();"><i class="fas fa-arrow-down"></i></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row reddit-contentrow-1">
+            <h1>What Is Reddit?</h1>
+        </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    reddit is a website where content is prioritized based off of popularity. Users can “upvote” or “downvote” submissions and comments. The two types of submissions a user may create are links and text. A link submission can contain a url, image, or video.
+                    Text submissions are similar to threads on a forum. Both types of submissions have a comments section where users can discuss the post. Nearly all of the content on the website is posted by its user base. The accounts of reddit’s users
+                    are typically not meant to be associated with their real identity. Reddit can be thought of as a semi-anonymous social media network. reddit is partitioned into “subreddits” based on particular topics. These subreddits are created
+                    and run by regular users. When a user first visits the site, they will see a feed of content composed of posts from all subscribed subreddits. If an unregistered user visits reddit, they will see content from what are known as the
+                    default subreddits. Registered users can choose what content they see on their feed by subscribing and unsubscribing to different subreddits. Users can also visit a particular subreddit and exclusively examine their content. reddit
+                    has a system where users can pay for “Coins” that they can use to give awards to particular posts or comments. Some of the awards can give the recipient “Reddit Premium” for a limited time. Reddit Premium gets rid of advertisements
+                    on the site, allows the user to enter a special subreddit, and gives some other small benefits. Coins and Reddit Premium were created to allow users to financially support reddit in a fun way.
                 </p>
             </div>
         </div>
-        <div class="row contentrow-1">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container" style="padding-top: 50px; padding-bottom: 50px">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="row reddit-contentrow-1">
+            <h1>What Goes On Reddit?</h1>
+        </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    Two thirds of reddit’s users in the US are male. Two thirds of its users in the US are 18 to 29 years old. 70 percent of reddit’s users in the US are white [1]. Speaking from experience, most reddit users lean left politically, but there are also many
+                    conservatives. A little over half of its users live in the United States. By order of magnitude, the rest of most of its users are from the United Kingdom, Canada, Australia, and Germany [1]. The majority of reddit’s users are young,
+                    liberal, white, American men; this fact is often joked about among the website’s users.
+                </p>
             </div>
         </div>
-        <div style="height: 100px">
+        <div class="row reddit-contentrow-1">
+            <h1>Why Go On Reddit?</h1>
         </div>
-        <div class="row contentrow-2">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            How Are Memes Used?
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Memes are a type of communication through a form of image, text, or video. They are primarily used for humor or enjoyment, either making jokes about topics like current events, funny representations of relatable thoughts and desires, or even something
-                                as simple as a silly picture of a cute animal. Primarily in the form of This communication has slowly formed around internet culture into the mass scale spreading of memes that online users are accustomed to today. Here
-                                are some examples of simple, everyday memes.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    Reddit provides its users a platform on which they may freely express themselves behind the safety of aliases. Posts and comments are judged by users based on votes; this gives users a means to promote or suppress content on the website. There are many
+                    active, popular and niche subreddits; literally anyone could find a subreddit that would interest them. You can still get a lot out of reddit without making an account or participating.
+                </p>
             </div>
         </div>
-        <div style="height: 100px">
+        <div class="row reddit-contentrow-1">
+            <h1>Them Memes Tho?</h1>
         </div>
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img" src="images/meme1.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme2.jpg" alt="Card image">
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
-                        <small>
-                            Someone famous in
-                            <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme3.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme4.jpg" alt="Card image">
+        <div class="row justify-content-center reddit-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    The memes on reddit range from fresh to stale; it depends on where you look. Many new instances of memes appear throughout reddit every day. A lot of people go to reddit to find the memes that they will share with their real life friends through social
+                    networks associated with their true identity. Some genres and species of memes surely made their debut on reddit. reddit had a sort of meme that involved a secret phrase that would allow reddit users to identify each other in public.
+                    Saying, “The narwhal bacons at midnight,” would identify you as a reddit user [2]. This meme has since died and only veterans of the website now remember those strange times.
+                </p>
             </div>
         </div>
-        <div style="height: 100px">
+        <div class="row justify-content-center" style="padding-top: 50px;">
+            <img src="../images/redditimg2.png" alt="">
         </div>
-        <div class="row contentrow-3">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
+        <div class="row justify-content-center" style="padding-top: 50px;">
+            <img src="../images/redditimg3.png" alt="">
+        </div>
+    </div>
+    <div style="height: 100px;"></div>
+    <div class="container-fluid footer sticky-bottom" style="padding-bottom: 50px;">
+        <div class="row justify-content-center footer-row-2 ">
+            <div class="col-md-2 offset-1">
+                <h1><i class="fas fa-search" style="color: yellow"></i> Page Sources</h1>
+            </div>
+            <div class="col-md-4 ">
+                <div class="row justify-content-center ">
+                    <ul>
+                        <li>
+                            <a href="https://www.techjunkie.com/demographics-reddit/">Source 1</a>
+                        </li>
+                        <li>
+                            <a href="https://knowyourmeme.com/memes/the-narwhal-bacons-at-midnight">Source 2</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container footer sticky-bottom ">
-        <div class="row justify-content-md-center">
-            <footer>
-                <h1>Hello I am the footer!</h1>
-            </footer>
-        </div>
-    </div>
-
+    <script>
+        function movemid() {
+            document.getElementById('middle').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            })
+        }
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

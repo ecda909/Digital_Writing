@@ -5,7 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
@@ -13,45 +14,39 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="../index.htm">The Spreadable Meme</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../index.htm"><b>TSM</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.htm">Home
-                    <span class="sr-only">(current)</span>
-                </a>
-                </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Meme Timeline
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="oral.htm">Oral Age</a>
-                            <a class="dropdown-item" href="written.htm">Written Age</a>
                             <a class="dropdown-item" href="digital.htm">Digital Age</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Spreadibility
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="about.htm">About</a>
                             <a class="dropdown-item" href="tools.htm">Tools</a>
-                            <a class="dropdown-item" href="types.htm">Types</a>
+                            <a class="dropdown-item" href="trends.htm">Trends</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Channels
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -67,147 +62,106 @@
             </ul>
         </div>
     </nav>
-    <div class="container justify-content-md-center content-container" style="padding-top: 100px">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">YouTube</h1>
-                <p class="lead">
-                    Content Realating to YouTube as a channel.
+    <div class="container-fluid content-container-1">
+        <div class="row justify-content-center" style="padding-top: 15%;">
+            <h1 class="title">YouTube <i class="fab fa-youtube" style="color: red;"></i></h1>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 20px;">
+            <p>
+                The internets best source for content via video.
+            </p>
+        </div>
+        <div class="row justify-content-center" style="padding-top:10%">
+            <button type="button" class="btn buttonrow" onClick="movemid();"><i class="fas fa-arrow-down"></i></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row reddit-contentrow-1">
+            <h1>What Is YouTube?</h1>
+        </div>
+        <div class="row justify-content-center youtube-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    The website Youtube was created in February 2005 by former PayPal employees as a video hosting service. The site grew into a successful hit as by December the website was garnering over eight million visits per day. This success caught the attention of
+                    growing internet giant Google who would later purchase the website in November of 2006 for over 1.5 billion dollars. (bus insider) Within the near decade and a half of its existence, the service has grown where creators can make a
+                    living through content creation by the means of advertisement revenue while companies can use the service to reach their audience through a new medium. With an Alexa rank of #2 globally, Youtube is without a doubt the largest video
+                    viewing audience and with how big the community has spawned different types of sub communities based who viewers are subscribed too.
                 </p>
             </div>
         </div>
-        <div class="row contentrow-1">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
+        <div class="row reddit-contentrow-1">
+            <h1>YouTube’s Audience</h1>
+        </div>
+        <div class="row justify-content-center youtube-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    As mentioned before, there are different communities that revolve around content creators and they can overlap with their user base. Each user has the potential to be subscribed to different content creators and participate in that community. This in
+                    turn can explain how memes across the platform spread or become popular as the audience of YouTube can be very active when it comes to sharing and spreading content from the site. In Henry Jenkin’s book, Spreadable Media, he talks
+                    about how spectators or inactive users still have value as they are the majority of the users who interact with that content (Jenkins). Most of the views and likes off videos on Youtube come from this category of user and even though
+                    they might not be the one directly sharing the link to the video, they are behind the traffic that gets videos to the front page and can garner more views.
+                </p>
+            </div>
+        </div>
+        <div class="row reddit-contentrow-1">
+            <h1>Meme’s throughout YouTube</h1>
+        </div>
+        <div class="row justify-content-center youtube-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    The medium of memes on Youtube are unsurprisingly videos which isn’t just exclusive to just video with just images and audio. There is an argument that the website is just a place to host memes that are video and audio, but there are some that originated
+                    on that site that spread to other channels. An example would be videos from foreign movies that the dialogue is not English so there is a subtitle track. Users would upload videos of scenes from certain movies that would feature an
+                    edited English subtitle track that would turn an otherwise serious scene of drama into one of comedy. This fad would translate to screenshots of certain movies where people edit scenes that have subtitles and change subtle words to
+                    change the meaning. A good example of this would be the German film, “Downfall” that features the end of WW2. A scene that features an angry reaction from Adolf Hitler that is deflated by the subtitles that show he is reacting about
+                    his xbox account being banned. This is just one example of the many memes that encompass Youtube. </p>
+            </div>
+        </div>
+        <div class="row justify-content-center youtube-contentrow-1">
+            <h1>Watch This And Be Amazed</h1>
+        </div>
+        <div class="row justify-content-center">
+            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/QkhcKQ07dg8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div style="height: 100px;"></div>
+    <div class="container-fluid footer sticky-bottom">
+        <div class="row justify-content-center">
+            <h1>Sources</h1>
+        </div>
+        <div class="row justify-content-center footer-row-2 ">
+            <div class="col-md-4 ">
+                <div class="row justify-content-center ">
+                    <ul>
+                        <li>
+                            <a href="https://www.businessinsider.com/key-turning-points-history-of-youtube-2013-2">Source 1</a>
+                        </li>
+                        <li>
+                            <a href="https://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandtelecoms/digital-media/7596636/YouTube-a-history.html">Source 2</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="container" style="padding-top: 50px; padding-bottom: 50px">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="row contentrow-2">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            How Are Memes Used?
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Memes are a type of communication through a form of image, text, or video. They are primarily used for humor or enjoyment, either making jokes about topics like current events, funny representations of relatable thoughts and desires, or even something
-                                as simple as a silly picture of a cute animal. Primarily in the form of This communication has slowly formed around internet culture into the mass scale spreading of memes that online users are accustomed to today. Here
-                                are some examples of simple, everyday memes.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img" src="images/meme1.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme2.jpg" alt="Card image">
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
-                        <small>
-                            Someone famous in
-                            <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme3.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme4.jpg" alt="Card image">
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="row contentrow-3">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-md-4">
+                <div class="row justify-content-center ">
+                    <ul>
+                        <li>
+                            Dickey, Megan Rose. “The 22 Key Turning Points In The History Of YouTube.” Business Insider, Business Insider, 15 Feb. 2013, www.businessinsider.com/key-turning-points-history-of-youtube-2013-2.
+                        </li>
+                        <li>
+                            Jenkins, Henry, et al. Spreadable Media: Creating Value and Meaning in a Networked Culture: with a New Afterword. New York University Press, 2018.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container footer sticky-bottom ">
-        <div class="row justify-content-md-center">
-            <footer>
-                <h1>Hello I am the footer!</h1>
-            </footer>
-        </div>
-    </div>
-
+    <script>
+        function movemid() {
+            document.getElementById('middle').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            })
+        }
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -5,6 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -13,45 +15,39 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="../index.htm">The Spreadable Meme</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../index.htm"><b>TSM</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.htm">Home
-                    <span class="sr-only">(current)</span>
-                </a>
-                </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Meme Timeline
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="oral.htm">Oral Age</a>
-                            <a class="dropdown-item" href="written.htm">Written Age</a>
                             <a class="dropdown-item" href="digital.htm">Digital Age</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Spreadibility
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="about.htm">About</a>
                             <a class="dropdown-item" href="tools.htm">Tools</a>
-                            <a class="dropdown-item" href="types.htm">Types</a>
+                            <a class="dropdown-item" href="trends.htm">Trends</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Channels
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -67,147 +63,86 @@
             </ul>
         </div>
     </nav>
-    <div class="container justify-content-md-center content-container" style="padding-top: 100px">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Types of Spreadability</h1>
-                <p class="lead">
-                    Content about types of spreadability.
+    <div class="container-fluid content-container-1">
+        <div class="row justify-content-center" style="padding-top: 15%;">
+            <h1 class="title"><i class="fas fa-wrench"></i> Trends <span class="cursor">|</span></h1>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 20px;">
+            <p>
+                Things that are on trend are always pushing forward.
+            </p>
+        </div>
+        <div class="row justify-content-center" style="padding-top:10%">
+            <button type="button" class="btn buttonrow" onClick="movemid();"><i class="fas fa-arrow-down"></i></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row reddit-contentrow-1">
+            <h1>What are “Trends”?</h1>
+        </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    The word “trend” in this context is the aspects of content that make the content highly spreadable overtime. Trends are usually influenced by the media, current events, and emotional content. These trends are just the observation of what made content
+                    popular and spreadable online at the time. A lot of popular articles or posts are about a subject, then that subject is a trend. Trends very in longevity, but always focus on how popular the trending topic is. If we talk about certain
+                    formats for memes involving the president (which is currently a popular topic) we can see that content has continually been made about him since he entered media as a politician. The lifespan of content relies on these trends, if the
+                    content is outdated or doesn’t appeal to trends then it has a low chance of spreading. Trends appeal to emotions through things such as animals or footage to gain awareness and make people feel the need to share the content with others
+                    online, so they feel the same emotional response. An article “What Makes Content Viral?”, by Jonah Burger and Katherine L. Milkman, provide insight into the emotional aspects of content that make content spreadable and trendy.
                 </p>
             </div>
         </div>
-        <div class="row contentrow-1">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container" style="padding-top: 50px; padding-bottom: 50px">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="row reddit-contentrow-1">
+            <h1>How Trends are formed?</h1>
+        </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    As previously mentioned, popular content will appeal to emotion and topics that popular content shares are trends. Emotions make content popular and spreadable, but how does this form trends? Trends are formed once a large amount of audience on the internet
+                    popularizes content that shares similar traits. For example, if a movie releases and everyone either loved or hated it, then they will share their opinion and feelings online. This large number of users discussing the movie causes
+                    the movie to be a trending topic because lots of content is being created on it. Burger and Milkman express that emotion is related to how popular content gets so popular. We associate emotion with given topics and topics that are
+                    emotionally relevant will be trends due to their popularization online.
+                </p>
             </div>
         </div>
-        <div style="height: 100px">
+        <div class="row reddit-contentrow-1">
+            <h1>What Content Trends?</h1>
         </div>
-        <div class="row contentrow-2">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            How Are Memes Used?
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Memes are a type of communication through a form of image, text, or video. They are primarily used for humor or enjoyment, either making jokes about topics like current events, funny representations of relatable thoughts and desires, or even something
-                                as simple as a silly picture of a cute animal. Primarily in the form of This communication has slowly formed around internet culture into the mass scale spreading of memes that online users are accustomed to today. Here
-                                are some examples of simple, everyday memes.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    As we have discussed emotion fuel topics are what initiates trends, but what emotions cause more popularization and trending topics. Burger and Milkman found that, “results suggest that while external drivers of attention (e.g., being prominently featured)
+                    shape what becomes viral, content characteristics are of similar importance”, which shows that content that appeals to emotion is just as, if not more spreadable then promoted content. Their study shows that emotion plays a key role
+                    in deciding what trends online. Further research by Burger and Milkman present that the characteristics that effect people emotionally such as awe, anger, positivity, or surprise in content will only add to it popularity and Spreadability
+                    between users. Content that appeals to enough users through emotion have higher tendencies of trending than those that don’t appeal to emotion.
+                </p>
             </div>
         </div>
-        <div style="height: 100px">
-        </div>
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img" src="images/meme1.jpg" alt="Card image">
+    </div>
+    <div style="height: 100px;"></div>
+    <div class="container-fluid footer sticky-bottom" style="padding-bottom: 50px;">
+        <div class="row justify-content-center footer-row-2 ">
+            <div class="col-md-2 offset-1">
+                <h1><i class="fas fa-search" style="color: yellow"></i> Page Sources</h1>
             </div>
-            <div class="card">
-                <img class="card-img" src="images/meme2.jpg" alt="Card image">
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
-                        <small>
-                            Someone famous in
-                            <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme3.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme4.jpg" alt="Card image">
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="row contentrow-3">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-md-4 ">
+                <div class="row justify-content-center ">
+                    <ul>
+                        <li>
+                            <a href="https://journals.sagepub.com/doi/10.1509/jmr.10.0353 ">Source 1</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container footer sticky-bottom ">
-        <div class="row justify-content-md-center">
-            <footer>
-                <h1>Hello I am the footer!</h1>
-            </footer>
-        </div>
-    </div>
-
+    <script>
+        function movemid() {
+            document.getElementById('middle').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            })
+        }
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

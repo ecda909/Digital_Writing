@@ -5,6 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -13,45 +15,39 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="../index.htm">The Spreadable Meme</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../index.htm"><b>TSM</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.htm">Home
-                    <span class="sr-only">(current)</span>
-                </a>
-                </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Meme Timeline
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="oral.htm">Oral Age</a>
-                            <a class="dropdown-item" href="written.htm">Written Age</a>
                             <a class="dropdown-item" href="digital.htm">Digital Age</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Spreadibility
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="about.htm">About</a>
                             <a class="dropdown-item" href="tools.htm">Tools</a>
-                            <a class="dropdown-item" href="types.htm">Types</a>
+                            <a class="dropdown-item" href="trends.htm">Trends</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Channels
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -67,147 +63,92 @@
             </ul>
         </div>
     </nav>
-    <div class="container justify-content-md-center content-container" style="padding-top: 100px">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Reddit</h1>
-                <p class="lead">
-                    Content Realating to Reddit as a channel.
+    <div class="container-fluid content-container-1">
+        <div class="row justify-content-center" style="padding-top: 15%;">
+            <h1 class="title"><i class="fas fa-wrench"></i> Tools <span class="cursor">|</span></h1>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 20px;">
+            <p>
+                There are a lot of tools for Spreadability and here's what they are.
+            </p>
+        </div>
+        <div class="row justify-content-center" style="padding-top:10%">
+            <button type="button" class="btn buttonrow" onClick="movemid();"><i class="fas fa-arrow-down"></i></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row reddit-contentrow-1">
+            <h1>What are “Tools” of Spreadability?</h1>
+        </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    Tools refers to the creations and inventions that have contributed to simpler means of spreadability. These tools have made it easier for users to share content to one another online and offline. Tools can be as broad as books, since we can share information
+                    through them, to the social media’s share button, which was made to spread content. These tools have either made connections between the audience faster or have made it convenient to share content with others. Understand what mechanisms
+                    are in place to make the content more spreadable will help audiences understand how content can spread so efficiently.
                 </p>
             </div>
         </div>
-        <div class="row contentrow-1">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container" style="padding-top: 50px; padding-bottom: 50px">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="row reddit-contentrow-1">
+            <h1>Impact of Tools</h1>
+        </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    People have been inventing tools that spread content since the creation of language. Some of the most important inventions revolve around the spread of information. Basics like writing and paper have been the first contributors of spreading information
+                    because they allowed people to store their words and give them to others rather than just talking directly. The printing press is hailed as one of the most important inventions because it allowed us to create books on a mass scale
+                    and provide content and media to a much larger audience in less time. These basics have allowed inventions in modern times to capitalize on how we communicate and share information. Modern times presented the telephones, the internet,
+                    e-mail, text messaging, social media, etc. which all contribute to our ability to spread content more freely to each other. We have continually pushed to make content more available and in doing so we create the tools that allow content
+                    to have spreadability.
+                </p>
             </div>
         </div>
-        <div style="height: 100px">
+        <div class="row reddit-contentrow-1">
+            <h1>Modern Tool Examples</h1>
         </div>
-        <div class="row contentrow-2">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            How Are Memes Used?
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Memes are a type of communication through a form of image, text, or video. They are primarily used for humor or enjoyment, either making jokes about topics like current events, funny representations of relatable thoughts and desires, or even something
-                                as simple as a silly picture of a cute animal. Primarily in the form of This communication has slowly formed around internet culture into the mass scale spreading of memes that online users are accustomed to today. Here
-                                are some examples of simple, everyday memes.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    Reddit provides its users a platform on which they may freely express themselves behind the safety of aliases. Posts and comments are judged by users based on votes; this gives users a means to promote or suppress content on the website. There are many
+                    active, popular and niche subreddits; literally anyone could find a subreddit that would interest them. You can still get a lot out of reddit without making an account or participating.
+                </p>
             </div>
         </div>
-        <div style="height: 100px">
+        <div class="row reddit-contentrow-1">
+            <p>
+                <b>Social Media</b> – platforms that house audiences which share uploaded content and observe content shared by other users.
+            </p>
         </div>
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img" src="images/meme1.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme2.jpg" alt="Card image">
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
-                        <small>
-                            Someone famous in
-                            <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme3.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme4.jpg" alt="Card image">
-            </div>
+        <div class="row reddit-contentrow-1">
+            <p>
+                <b>Text Messaging</b> – allows users to communicated through text or visuals and share content to one another through this text/visual exchange format.
+            </p>
         </div>
-        <div style="height: 100px">
+        <div class="row reddit-contentrow-1">
+            <p>
+                <b>Links/Hyper Links</b> – URLs that can be formatted to bring a user to a given web page by the clicking it.
+            </p>
         </div>
-        <div class="row contentrow-3">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="row reddit-contentrow-1">
+            <p>
+                <b>E-Mail</b> – An online mail system that allows users to send content to one another
+            </p>
         </div>
     </div>
-    <div class="container footer sticky-bottom ">
-        <div class="row justify-content-md-center">
-            <footer>
-                <h1>Hello I am the footer!</h1>
-            </footer>
+    <div style="height: 100px;"></div>
+    <div class="container-fluid footer sticky-bottom" style="padding-top: 50px; padding-bottom: 50px;">
+        <div class="row justify-content-center">
+            <h2>No sources for this one <i class="fas fa-smile-wink"></i></h2>
         </div>
     </div>
-
+    <script>
+        function movemid() {
+            document.getElementById('middle').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            })
+        }
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

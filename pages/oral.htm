@@ -5,6 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -13,45 +15,39 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="../index.htm">The Spreadable Meme</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../index.htm"><b>TSM</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.htm">Home
-                    <span class="sr-only">(current)</span>
-                </a>
-                </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Meme Timeline
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="oral.htm">Oral Age</a>
-                            <a class="dropdown-item" href="written.htm">Written Age</a>
                             <a class="dropdown-item" href="digital.htm">Digital Age</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Spreadibility
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="about.htm">About</a>
                             <a class="dropdown-item" href="tools.htm">Tools</a>
-                            <a class="dropdown-item" href="types.htm">Types</a>
+                            <a class="dropdown-item" href="trends.htm">Trends</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Channels
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -67,146 +63,107 @@
             </ul>
         </div>
     </nav>
-    <div class="container justify-content-md-center content-container" style="padding-top: 100px">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Oral Age of Memes</h1>
-                <p class="lead">
-                    Content about types of Oral Age.
+    <div class="container-fluid content-container-1">
+        <div class="row justify-content-center" style="padding-top: 15%;">
+            <h1 class="title">The Oral Age</h1>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 20px;">
+            <p>
+                We first start with speech.
+            </p>
+        </div>
+        <div class="row justify-content-center" style="padding-top:10%">
+            <button type="button" class="btn buttonrow" onClick="movemid();"><i class="fas fa-arrow-down"></i></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    Memes have existed in the cultures of humanity, in some form, for thousands of years. The best place to look for the beginning of memes is ancient Greece. This is where western philosophy began, and where humanity made huge leaps in science and mathematics.
+                    The great Aristotle came up with an idea we now call the enthymeme [1]. Aristotle said that enthymeme meant “the body of proof”. He also believed the enthymeme to be “the strongest of rhetorical proofs”. How enthymeme is defined today
+                    is different from in the days of Aristotle.
                 </p>
             </div>
         </div>
-        <div class="row contentrow-1">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    Enthymeme describes the phenomenon where saying one thing implies another thing, but another unstated implication comes to mind from hearing what was said [2]. For example, saying, “I go home at the end of the day,” and, “it’s the end of the day,” implies
+                    the speaker is heading home. It’s sort of like making a pop culture reference. For example, you could make a quote from a movie to your friend and they would be reminded of the movie even though you didn’t explicitly introduce the
+                    concept of that film into your friend’s mind in your quote. The Greeks didn’t have movies back then, but they had plays and music.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    To share poetry and epic stories, a performance had to be made. The name used to refer to ancient Greek singers who would sing famous epics, like the Iliad and Odyssey, is Aoidos [3]. These epics were memorized by the Aoidos and performed live. The Greeks
+                    would have recognized what was meant by their friend saying that some weakness is the Achille’s Heel of something. The mythos of their gods brought many memetical ideas to the minds of the Greeks. If they called someone a Narcissus,
+                    they were comparing that person to the character whose downfall came from being too in love with himself. This is where we derived the term narcissist from.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center reddit-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    Some of the memetical ideas from ancient times have survived for thousands of years and still influence the way we think about things. Some ancient proto-memes have detached from their origin, like the previously mentioned word, narcissist. Narcissist
+                    has a well-recognized definition that can be easily understood without hearing the story of Narcissus. If you look to the Abrahamic mythos, there is also the character Nimrod.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center reddit-contentrow-1" id="middle">
+            <div class="col-md-10">
+                <p>
+                    Nimrod was a such a good hunter, he’s in holy books, so if you were compared to him, it meant you were dang good at hunting. Now, if a North American calls you a nimrod, they’re saying that you’re an idiot. This is thanks to the popular twentieth century
+                    cartoon character Bugs Bunny [4]. He sarcastically called Elmer Fudd (the guy hunting for rabbits in the cartoon) Nimrod to mock him. Most viewers didn’t know about the character Nimrod and assumed it was a word used to describe a
+                    moron because of the wit of a cartoon rabbit.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div style="height: 100px;"></div>
+    <div class="container-fluid footer sticky-bottom">
+        <div class="row justify-content-center footer-row-2 ">
+            <div class="col-md-2 offset-1">
+                <h1><i class="fas fa-search" style="color: yellow"></i> Page Sources</h1>
+            </div>
+            <div class="col-md-4 ">
+                <div class="row justify-content-center ">
+                    <ul>
+                        <li>
+                            <h6>Lloyd F. Bitzer (1959) Aristotle's enthymeme revisited, Quarterly Journal of Speech, 45:4, 399-408, DOI: 10.1080/00335635909382374</h6>
+                        </li>
+                        <li>
+                            <a href="https://literarydevices.net/enthymeme/">Source 2</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="container" style="padding-top: 50px; padding-bottom: 50px">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="row contentrow-2">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            How Are Memes Used?
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Memes are a type of communication through a form of image, text, or video. They are primarily used for humor or enjoyment, either making jokes about topics like current events, funny representations of relatable thoughts and desires, or even something
-                                as simple as a silly picture of a cute animal. Primarily in the form of This communication has slowly formed around internet culture into the mass scale spreading of memes that online users are accustomed to today. Here
-                                are some examples of simple, everyday memes.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img" src="images/meme1.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme2.jpg" alt="Card image">
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
-                        <small>
-                            Someone famous in
-                            <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme3.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme4.jpg" alt="Card image">
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="row contentrow-3">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-md-4 ">
+                <div class="row justify-content-center ">
+                    <ul>
+                        <li>
+                            <h6>
+                                Latacz, Joachim (2004), Troy and Homer: towards a solution of an old mystery, Oxford: Oxford University Press, ISBN 978-0-19-926308-0
+                            </h6>
+                        </li>
+                        <li>
+                            <a href="https://dotandline.net/when-bugs-bunny-beat-the-bible-59a761550245">Source 4</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container footer sticky-bottom ">
-        <div class="row justify-content-md-center">
-            <footer>
-                <h1>Hello I am the footer!</h1>
-            </footer>
-        </div>
-    </div>
+    <script>
+        function movemid() {
+            document.getElementById('middle').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            })
+        }
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

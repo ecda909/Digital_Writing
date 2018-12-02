@@ -5,6 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -13,45 +15,39 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="../index.htm">The Spreadable Meme</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../index.htm"><b>TSM</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.htm">Home
-                    <span class="sr-only">(current)</span>
-                </a>
-                </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Meme Timeline
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="oral.htm">Oral Age</a>
-                            <a class="dropdown-item" href="written.htm">Written Age</a>
                             <a class="dropdown-item" href="digital.htm">Digital Age</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Spreadibility
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="about.htm">About</a>
                             <a class="dropdown-item" href="tools.htm">Tools</a>
-                            <a class="dropdown-item" href="types.htm">Types</a>
+                            <a class="dropdown-item" href="trends.htm">Trends</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Channels
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -67,152 +63,133 @@
             </ul>
         </div>
     </nav>
-    <div class="container justify-content-md-center content-container" style="padding-top: 100px">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">4Chan</h1>
-                <p class="lead">
-                    Content Realating to 4Chan as a channel.
+    <div class="container-fluid content-container-1">
+        <div class="row justify-content-center" style="padding-top: 15%;">
+            <h1 class="title">4Chan?</h1>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 20px;">
+            <p>
+                Yes, 4Chan.
+            </p>
+        </div>
+        <div class="row justify-content-center" style="padding-top:10%">
+            <button type="button" class="btn buttonrow" onClick="movemid();"><i class="fas fa-arrow-down"></i></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row chan-contentrow-1">
+            <h1>It's Not A Person</h1>
+        </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-6">
+                <p>
+                    4chan is a website, not a person. 4chan is so unknown to the general populace that it is sometimes mistaken for being a person. Many people have heard the name, but don’t know anything about it other than that it’s a website. Somehow, the most mischievous
+                    website on the Internet has flown under most people’s radar. 4chan is the primal breeding ground for the dankest, spiciest, and most offensive memes. It is the mitochondria of the memetic cell. It is a website built upon meme culture.
+                </p>
+            </div>
+            <div class="col-md-5 offset-1">
+                <img src="../images/4chanimg1.png" alt="4chan-img" height="400px" width="width: 400px">
+            </div>
+        </div>
+        <div class="row justify-content-center chan-contentrow-1" id="middle">
+            <div class="col-md-6">
+                <img src="../images/4chanimg2.png" alt="4chan-img" style="max-height: 600px; max-width: 600px; padding-top: 100px;">
+            </div>
+            <div class="col-md-5 offset-1">
+                <p align="left">
+                    4chan is basically a giant anonymous forum with different subsections categorized upon interest (they call these boards) [1]. People post pictures, ask questions, share files, discuss anime, troll, meme, etc. This type of website is typically known as
+                    an imageboard. The thing that’s really different about 4chan is that it advertises all of its deviant content on its homepage. There are plenty of boards on 4chan that aren’t explicit in nature, but there are many trolls and pranksters
+                    lurking within 4chan. I wouldn’t want my young kid going on it or think that it’s a good idea to visit it at work.
                 </p>
             </div>
         </div>
-        <div class="row contentrow-1">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
+        <div class="row justify-content-center chan-contentrow-1">
+            <p>
+                4chan is notorious for having a high concentration of unethical activities within its boards. Since its users cannot be held accountable for what they post, the ugliest sides of people often manifest themselves. Think about how much bolder you are once
+                you’re driving your car. Now, consider that feeling amplified by the anonymity and freedom from consequences that 4chan offers its users.
+            </p>
+        </div>
+        <div class="row chan-contentrow-1 justify-content-center header" style="padding-top: 100px;">
+            <h1>What Goes on 4Chan?</h1>
+        </div>
+        <div class="row chan-contentrow-1" style="padding-top: 100px;">
+            <p>
+                4chan has 22 million monthly visitors [3]. Half of them are American [3]. It’s estimated that roughly 70 percent of 4chan’s users are male [3]. Around 1 million posts are made by users on 4chan every day [3]. Currently, the board that gets the most posts
+                a day is the /pol/ board [4]. /pol/ is the Politically Incorrect board. We’ll just say this is where some of the most offensive memes are made. Many users on /pol/ take full advantage of the anonymity of 4chan to proudly exclaim, in a
+                public forum, the things that they are normally hesitant to say in real life. Some of these users seek an oasis in the desert of political correctness, conformity, and manners that society demands of them. But mostly, it’s just a bunch
+                of casual bigotry in the world’s biggest alt-right echo chamber. Right behind /pol/ is /v/, which is the video games board [4]. Not far behind that is the anime board [4]. Hopefully, this gives you an idea of the average user’s priorities.
+            </p>
+        </div>
+        <div class="row chan-contentrow-1" style="padding-top: 100px;">
+            <div class="col-md-4">
+                <h2>Here's Where The Memes Come In</h2>
+            </div>
+            <div class="col-md-8">
+                <p>As hinted at earlier, many popular memes have originated from 4chan. One exceptional example is greentext stories. On 4chan, placing a ‘>’ symbol at the beginning of a comment line turns the text of the line to green [6]. Usually, greentext
+                    is used to tell humorous, personal stories; sometimes they are relatable and show a humorous perspective on the human experience, and others are ridiculous tales of fiction.</p>
+            </div>
+        </div>
+    </div>
+    <div style="height: 100px;"></div>
+    <div class="container-fluid footer sticky-bottom" style="padding-bottom: 50px;">
+        <div class="row justify-content-center footer-row-2 ">
+            <div class="col-md-2 offset-1">
+                <h1><i class="fas fa-search" style="color: yellow"></i> Page Sources</h1>
+            </div>
+            <div class="col-md-3 ">
+                <div class="row justify-content-center ">
+                    <ul>
+                        <li>
+                            <a href="https://www.washingtonpost.com/news/the-intersect/wp/2014/09/25/absolutely-everything-you-need-to-know-to-understand-4chan-the-internets-own-bogeyman/?noredirect=on&utm_term=.ae289cbec16c">Source 1</a>
+                        </li>
+                        <li>
+                            <a href="https://media.giphy.com/media/xTiIzBSwIq6344i0JG/giphy-facebook_s.jpg">Source 2</a>
+                        </li>
+                        <li>
+                            <a href="https://expandedramblings.com/index.php/4chan-statistics-facts/">Source 3</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="container" style="padding-top: 50px; padding-bottom: 50px">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-md-3 ">
+                <div class="row justify-content-center ">
+                    <ul>
+                        <li>
+                            <a href="https://4stats.io/">Source 4</a>
+                        </li>
+                        <li>
+                            <a href="https://i.guim.co.uk/img/media/23c58a958d5e479a757980d760faf816f0003d3d/0_0_4256_2555/master/4256.jpg?width=300&quality=85&auto=format&fit=max&s=3028b9e36f647cb732649baa6e800b58">Source 5</a>
+                        </li>
+                        <li>
+                            <a href="https://www.techwalla.com/articles/how-do-i-use-green-text-on-4chan">Source 6</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="row contentrow-2">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            How Are Memes Used?
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Memes are a type of communication through a form of image, text, or video. They are primarily used for humor or enjoyment, either making jokes about topics like current events, funny representations of relatable thoughts and desires, or even something
-                                as simple as a silly picture of a cute animal. Primarily in the form of This communication has slowly formed around internet culture into the mass scale spreading of memes that online users are accustomed to today. Here
-                                are some examples of simple, everyday memes.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img" src="images/meme1.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme2.jpg" alt="Card image">
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
-                        <small>
-                            Someone famous in
-                            <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme3.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme4.jpg" alt="Card image">
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="row contentrow-3">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-md-3 ">
+                <div class="row justify-content-center ">
+                    <ul>
+                        <li>
+                            <a href="https://i.ytimg.com/vi/kDGSjmBmSJ0/maxresdefault.jpg">Source 7</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container footer sticky-bottom ">
-        <div class="row justify-content-md-center">
-            <footer>
-                <h1>Hello I am the footer!</h1>
-            </footer>
-        </div>
-    </div>
-
+    <script>
+        function movemid() {
+            document.getElementById('middle').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            })
+        }
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
 </body>
 
 </html>

@@ -1,3 +1,4 @@
+<!--Website designed and coded by Eder Mazariegos @copyright-->
 <!doctype html>
 <html lang="en">
 
@@ -5,53 +6,50 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <title>Home</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">The Spreadable Meme</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.htm"><b>TSM</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.htm">Home
-                    <span class="sr-only">(current)</span>
-                </a>
-                </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Meme Timeline
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="pages/oral.htm">Oral Age</a>
-                            <a class="dropdown-item" href="pages/written.htm">Written Age</a>
                             <a class="dropdown-item" href="pages/digital.htm">Digital Age</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Spreadibility
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="pages/about.htm">About</a>
-                            <a class="dropdown-item" href="pages/tools.htm">Forms</a>
-                            <a class="dropdown-item" href="pages/trends.htm">Types</a>
+                            <a class="dropdown-item" href="pages/tools.htm">Tools</a>
+                            <a class="dropdown-item" href="pages/trends.htm">Trends</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Channels
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -67,152 +65,220 @@
             </ul>
         </div>
     </nav>
-    <div class="container justify-content-md-center content-container" style="padding-top: 100px">
-        <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid content-container-1">
+        <div class="row justify-content-center contentrow-1">
+            <h1 class="title">The Spreadable Meme</h1>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 20px;">
+            <p>
+                Memes are a form of sharable media that offers entertainment or satire on current popular cultural phenomena.<br>At least that's one definition...
+            </p>
+        </div>
+        <div class="row justify-content-center" style="padding-top:10%">
+            <button type="button" class="btn buttonrow" onClick="movemid();"><i class="fas fa-arrow-down"></i></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row contentrow-2">
             <div class="container">
-                <h1 class="display-4">What Are Memes?</h1>
-                <p class="lead">
-                    Memes are a form of sharable media that offers entertainment or satire on current popular cultural phenomena. These memes have come a long way from the original oral renditions to the current digital formats. Memes themselves have been studied to understand
-                    their "Spreadability", or their aspects that allow them to retain relevancy through people and communities sharing them with one another. These memes utilize "Channels", the platforms and technologies which they can be transferred
-                    across for an audience, in order to maintain their lifespan on the internet and various other mediums.
+                <div class="row justify-content-md-center" style="padding-bottom: 50px">
+                    <div class="col-md-3">
+                        <h1>
+                            Why Does This Website Exist?
+                        </h1>
+                    </div>
+                    <div class="col-md-9" style="padding-top: 100px;">
+                        <p>
+                            The main objective of this website is to ask the question, how do memes become spreadable? We take into account the history of how human communication has involved memes as well as the history of some memes. Within this site, there are descriptions of
+                            what spreadability is, what channels spreadability occurs over and a "Meme Timeline", which is a little something we have included that elaborates on the history of memes in depth.
+                        </p>
+                    </div>
+                </div>
+                <div id="middle"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row" style="padding-top: 50px; padding-bottom: 50px; margin: 20px;">
+            <div calss="container" id="cards" style="display: none;">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <blockquote class="blockquote mb-0 card-body">
+                                <p>"If it doesn't spread its dead."</p>
+                                <footer class="blockquote-footer">
+                                    <small class="text-muted">
+                                        Henry Jenkins <cite title="Source Title"><a href="https://www.pinterest.com/pin/95771929546157600/" target="none">Source</a></cite>
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <blockquote class="blockquote mb-0 card-body">
+                                <p>"Today we network together around the globe with friends, family, and even strangers who many eventually become our friends. We recommend products and services by becoming “fans” of the brand letting our network know who
+                                    we are by what we like"</p>
+                                <footer class="blockquote-footer">
+                                    <small class="text-muted">
+                                        Jan Bush <cite title="Source Title"><a href="http://www.academia.edu/1272427/Motivating_change_through_social_media_word-of-mouth_marketing" target="none">Source</a></cite>
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <blockquote class="blockquote mb-0 card-body">
+                                <p>“By discussing “spreadable media,” we aim to facilitate a more nuanced account of how and why things spread and to encourage our readers to adopt and help build a more holistic and sustainable model for understanding how
+                                    digital culture operates.”</p>
+                                <footer class="blockquote-footer">
+                                    <small class="text-muted">
+                                        Henry Jenkins <cite title="Source Title"><a href="https://www.goodreads.com/work/quotes/20618737-spreadable-media-creating-value-and-meaning-in-a-networked-culture" target="none">Source</a></cite>
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <blockquote class="blockquote mb-0 card-body">
+                                <p>“The decisions that each of us makes about whether to pass along media texts – are reshaping the media landscape itself”</p>
+                                <footer class="blockquote-footer">
+                                    <small class="text-muted">
+                                        Laura M. Gorham<cite title="Source Title"><a href="https://newprairiepress.org/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1026&context=jac" target="none">Source</a></cite>
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center contentrow-3" style="padding-top: 50px; padding-bottom: 50px">
+            <h1>
+                How Are Memes Used?
+            </h1>
+        </div>
+        <div class="row justify-content-center contentrow-3">
+            <div class="col-md-12">
+                <p>
+                    Memes are a type of communication through a form of image, text, or video. They are primarily used for humor or enjoyment, either making jokes about topics like current events, funny representations of relatable thoughts and desires, or even something
+                    as simple as a silly picture of a cute animal. Primarily in the form of This communication has slowly formed around internet culture into the mass scale spreading of memes that online users are accustomed to today. Here are
+                    <a href="javascript: memeshow();">some examples</a> of simple, everyday memes.
                 </p>
             </div>
         </div>
-        <div class="row contentrow-1">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center contentrow-3" style="padding-top: 150px; padding-bottom: 50px">
+            <div class="col-md-2" style="padding-top: 50px;">
+                <button class="btn btn-outline-dark" onclick="location.href='pages/oral.htm'">Meme Timeline</button>
             </div>
-            <div class="container" style="padding-top: 50px; padding-bottom: 50px">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-2" style="padding-top: 50px;">
+                <button class="btn btn-outline-dark" onclick="location.href='pages/about.htm'">Spreadability</button>
             </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="row contentrow-2">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            How Are Memes Used?
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Memes are a type of communication through a form of image, text, or video. They are primarily used for humor or enjoyment, either making jokes about topics like current events, funny representations of relatable thoughts and desires, or even something
-                                as simple as a silly picture of a cute animal. Primarily in the form of This communication has slowly formed around internet culture into the mass scale spreading of memes that online users are accustomed to today. Here
-                                are some examples of simple, everyday memes.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img" src="images/meme1.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme2.jpg" alt="Card image">
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
-                        <small>
-                            Someone famous in
-                            <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme3.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme4.jpg" alt="Card image">
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="row contentrow-3">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-2" style="padding-top: 50px;">
+                <button class="btn btn-outline-dark" onclick="location.href='pages/4chan.htm'">Channels</button>
             </div>
         </div>
     </div>
-    <div class="container footer sticky-bottom ">
-        <div class="row justify-content-md-center">
-            <footer>
-                <h1>Hello I am the footer!</h1>
-            </footer>
+    <div class="container" id="memes" style="display: none;">
+        <div class="row contentrow-4">
+            <div class="card-columns">
+                <div class="card">
+                    <img class="card-img" src="images/meme1.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/meme2.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/meme3.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/meme4.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/meme5.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/meme6.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/meme7.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/meme8.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/meme9.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/meme10.jpg" alt="Card image">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center contentrow-4">
+            <a href="https://www.memedroid.com/">Want to see some more?</a>
         </div>
     </div>
+    <div style="height: 100px;"></div>
+    <div class="container-fluid footer sticky-bottom" style="padding-bottom: 50px;">
+        <div class="row justify-content-center">
+            <h2>ENC4416-18Fall 0M01</h2>
+        </div>
 
+        <div class="row justify-content-center" style="padding-top: 40px;">
+            <div class="col" align="center">
+                <button type="button" class="btn btn-outline-light" data-container="body" data-toggle="popover" data-placement="top" data-content="Research, Web Development, Quality Assurance, Content Creator">
+                    Eder Mazariegos
+                </button>
+            </div>
+            <div class="col" align="center">
+                <button type="button" class="btn btn-outline-light" data-container="body" data-toggle="popover" data-placement="top" data-content="Research, Web Development, Quality Assurance, Content Creator (Text-based memes) Facebook Channel">
+                    Benjamin Manz
+                </button>
+            </div>
+            <div class="col" align="center">
+                <button type="button" class="btn btn-outline-light" data-container="body" data-toggle="popover" data-placement="top" data-content="Research, Content Creator Digital, Twitter & Instagram">
+                    Tarid Davies 
+                </button>
+            </div>
+            <div class="col" align="center">
+                <button type="button" class="btn btn-outline-light" data-container="body" data-toggle="popover" data-placement="top" data-content="Research, content creator Print Youtube channel">
+                    Corbin Zepeda
+                </button>
+            </div>
+            <div class="col" align="center">
+                <button type="button" class="btn btn-outline-light" data-container="body" data-toggle="popover" data-placement="top" data-content="Research, content creator Oral Culture History (4chan & reddit)">
+                    Hunter Meloche
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function movemid() {
+            document.getElementById('middle').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            })
+            $('#cards').delay(900).fadeIn(600);
+        }
+
+        function memeshow() {
+            $('#memes').fadeIn();
+        }
+    </script>
+    <script>
+        $(function() {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>

@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Righteous');
 $blue: #C2E7F2;
 $badge: #F1F0E2;
 $brown: #D9BB93;
 $Maroon: #F25652;
 body {
-    background-color: #333;
+    background-color: #fefe3b !important;
 }
 
 .navbar-light {
     .navbar-brand {
+        font-family: 'Righteous', cursive;
+        letter-spacing: 1em;
         color: black;
         font-size: 25px;
     }
@@ -16,6 +19,8 @@ body {
 .nav-item {
     .dropdown {
         .btn {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.2rem;
             border: none
         }
         .btn:hover {
@@ -24,44 +29,88 @@ body {
     }
 }
 
-.content-container {
-    .jumbotron {
-        margin-bottom: 100px;
+.content-container-1 {
+    height: 100vh;
+    div {
+        .title {
+            font-family: 'Righteous', cursive;
+            font-size: 6rem;
+        }
     }
     .contentrow-1 {
-        background-color: $blue;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        .text {
-            color: black;
+        padding-top: 20%;
+        p {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.3rem;
+            font-style: italic;
         }
     }
-    .contentrow-2 {
-        background-color: $badge;
-        padding-top: 20px;
-        padding-bottom: 20px;
+    .buttonrow {
+        transition: all .2s ease-in-out;
     }
-    .contentrow-3 {
-        background-color: $brown;
-        padding-top: 20px;
-        padding-bottom: 20px;
+    .buttonrow:hover {
+        transform: scale(1.7);
     }
-    .card-columns {
-        .card {
-            background-color: #333;
-        }
+}
+
+.contentrow-2 {
+    h1 {
+        font-size: 4rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.contentrow-3 {
+    h1 {
+        font-size: 4rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    a {
+        text-decoration: none;
+        color: blue;
+        font-size: 1.5rem;
+    }
+}
+
+.contentrow-4 {
+    padding-top: 100px;
+    a {
+        text-decoration: none;
+    }
+}
+
+.card-columns {
+    .card {
+        background-color: #333;
     }
 }
 
 .footer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    p {
-        color: white;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    .footer-row-2 {
+        padding-top: 50px;
     }
-    h1 {
-        color: white;
-        padding-top: 30px;
-        padding-bottom: 30px;
+    a {
+        color: yellow;
+    }
+    h6 {
+        color: yellow;
+    }
+    i {
+        color: yellow;
     }
 }
+
+@import '4chan';
+@import 'reddit';
+@import 'instagram';
+@import 'twitter';
+@import 'youtube';
+@import 'facebook';
+@import 'cursor';

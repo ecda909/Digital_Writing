@@ -5,6 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -13,45 +15,39 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="../index.htm">The Spreadable Meme</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../index.htm"><b>TSM</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.htm">Home
-                    <span class="sr-only">(current)</span>
-                </a>
-                </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Meme Timeline
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="oral.htm">Oral Age</a>
-                            <a class="dropdown-item" href="written.htm">Written Age</a>
                             <a class="dropdown-item" href="digital.htm">Digital Age</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Spreadibility
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="about.htm">About</a>
                             <a class="dropdown-item" href="tools.htm">Tools</a>
-                            <a class="dropdown-item" href="types.htm">Types</a>
+                            <a class="dropdown-item" href="trends.htm">Trends</a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Channels
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -67,146 +63,134 @@
             </ul>
         </div>
     </nav>
-    <div class="container justify-content-md-center content-container" style="padding-top: 100px">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Instagram</h1>
-                <p class="lead">
-                    Content Realating to Instagram as a channel.
+    <div class="container-fluid content-container-1">
+        <div class="row justify-content-center" style="padding-top: 15%;">
+            <h1 class="title">Instagram <i class="fab fa-instagram" style="color: rgb(212, 0, 212)"></i></h1>
+        </div>
+        <div class="row justify-content-center" style="padding-top: 20px;">
+            <p>
+                The daily app we use to view pictures on the fly.
+            </p>
+        </div>
+        <div class="row justify-content-center" style="padding-top:10%">
+            <button type="button" class="btn buttonrow" onClick="movemid();"><i class="fas fa-arrow-down"></i></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row instagram-contentrow-1" id="middle">
+            <div class="col-md-4">
+                <h1>What Is It?</h1>
+            </div>
+            <div class="col-md-8" style="padding-top: 20px;">
+                <p>Instagram is a photo and video-based social media platform that emerged in 2010 and has been a staple in terms of the digital social atmosphere. When it was first created the app served as a digital space for users to showcase and share
+                    their pictures with their followers who had the opportunity to like and comment on pictures. Since then, the app has grown to include many other features such as video uploading, slideshows, 24-hour stories, direct messaging, and live
+                    streaming. It remains one of the most used Tools of social media with upwards of 1 billion active users as of June 2018.
                 </p>
             </div>
         </div>
-        <div class="row contentrow-1">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
+        <div class="row instagram-contentrow-1">
+            <div class="col-md-4">
+                <h1>Who Uses It?</h1>
+            </div>
+            <div class="col-md-8" style="padding-top: 20px;">
+                <p>
+                    Instagram as a platform allows users to curate their experience based on the content they post and the people and tags that they follow. A large portion of the users on Instagram are within the 18-34 age range. This age range is also responsible for many
+                    of the strides we have made as a digital society. Instagram is not really as popular with older generations; as is the case with most other social media. Regardless the people who use it have created a digital society where content
+                    can easily be shared and disbursed in a matter of moments. As a user, there are easy ways to find content that you like such as following influencers in whatever community you are apart of or even following the hashtags that are important
+                    to you.
+                </p>
+            </div>
+        </div>
+        <div class="row instagram-contentrow-1">
+            <div class="col-md-4">
+                <h1>How Does It Spread? </h1>
+            </div>
+            <div class="col-md-8" style="padding-top: 20px;">
+                <p>
+                    Instagram is the perfect place for meme creators to deliver content. As most memes take form as either pictures or videos a platform that specializes in that would make the perfect home for this kind of content to circulate through. Memes almost never
+                    originate in the place that you saw them. Instagram has a big role in meme circulation because there are tons of pages that are dedicated to memes and memes alone. There is a meme page on Instagram for any interest.
+                </p>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 150px">
+            <h1>Want to see some funny stuff on IG?</h1>
+        </div>
+        <div class="row justify-content-center contentrow-3" style="padding-bottom: 50px">
+            <div class="col-md-2" style="padding-top: 50px;">
+                <button class="btn btn-outline-dark" onclick="location.href='https://www.instagram.com/daquan/'">@Daquan</button>
+            </div>
+            <div class="col-md-2" style="padding-top: 50px;">
+                <button class="btn btn-outline-dark" onclick="location.href='https://www.instagram.com/funnymemes/'">@Funnymemes</button>
+            </div>
+            <div class="col-md-2" style="padding-top: 50px;">
+                <button class="btn btn-outline-dark" onclick="location.href='https://www.instagram.com/thefatjewish/'">@Thefatjewish</button>
+            </div>
+            <div class="col-md-2" style="padding-top: 50px;">
+                <button class="btn btn-outline-dark" onclick="location.href='https://www.instagram.com/lmao/'">@LMAO</button>
+            </div>
+            <div class="col-md-2" style="padding-top: 50px;">
+                <button class="btn btn-outline-dark" onclick="location.href='https://www.instagram.com/ladbible/'">@LADBible</button>
+            </div>
+        </div>
+        <div calss="row">
+            <h2>Also, some of the tools that Instagram is equipped with, help circulate content instantly
+                <i class="fas fa-arrow-alt-circle-down"></i>
+            </h2>
+        </div>
+        <div class="row" style="padding-top: 20px;">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    Hashtags- A hashtag is a keyword preceded by the hash (#) symbol that associates whatever was posted with that tag. So, if a person posted a clever meme with the hashtag #funny, a person looking at the meme could access more content tagged funny by selecting
+                    that tag. Similarly, if a person were to search the tag then all posts with that tag would become available. This technology helps users find the content that they are interested in quickly.
+                </li>
+                <li class="list-group-item">
+                    Direct Messaging – Direct messaging is exactly what it sounds like. A service that allows users to send direct messages to each other without the contents of the messages ever being disclosed to any other followers. In terms of meme spreadability, direct
+                    messaging is also a way to share posts that you’ve come across with specified users.
+                </li>
+            </ul>
+        </div>
+        <div class="container" id="memes">
+            <div class="row contentrow-4 ">
+                <div class="card-columns ">
+                    <div class="card ">
+                        <img class="card-img " src="../images/instameme1.png " alt="Card image ">
                     </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
+                    <div class="card ">
+                        <img class="card-img " src="../images/instameme2.png " alt="Card image ">
+                    </div>
+                    <div class="card ">
+                        <img class="card-img " src="../images/instameme3.png " alt="Card image ">
+                    </div>
+                    <div class="card ">
+                        <img class="card-img " src="../images/instameme4.png " alt="Card image ">
+                    </div>
+                    <div class="card ">
+                        <img class="card-img " src="../images/instameme5.png " alt="Card image ">
+                    </div>
+                    <div class="card ">
+                        <img class="card-img " src="../images/instameme6.png " alt="Card image ">
                     </div>
                 </div>
             </div>
-            <div class="container" style="padding-top: 50px; padding-bottom: 50px">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Link to next page</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="row contentrow-2">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            How Are Memes Used?
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Memes are a type of communication through a form of image, text, or video. They are primarily used for humor or enjoyment, either making jokes about topics like current events, funny representations of relatable thoughts and desires, or even something
-                                as simple as a silly picture of a cute animal. Primarily in the form of This communication has slowly formed around internet culture into the mass scale spreading of memes that online users are accustomed to today. Here
-                                are some examples of simple, everyday memes.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img" src="images/meme1.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme2.jpg" alt="Card image">
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-                <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
-                        <small>
-                            Someone famous in
-                            <cite title="Source Title">Source Title</cite>
-                        </small>
-                    </footer>
-                </blockquote>
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme3.jpg" alt="Card image">
-            </div>
-            <div class="card">
-                <img class="card-img" src="images/meme4.jpg" alt="Card image">
-            </div>
-        </div>
-        <div style="height: 100px">
-        </div>
-        <div class="row contentrow-3">
-            <div class="row text">
-                <div class="container">
-                    <div class="row justify-content-md-center" style="padding-top: 50px; padding-bottom: 50px">
-                        <h1>
-                            Title
-                        </h1>
-                    </div>
-                    <div class="row justify-content-md-center">
-                        <div class="col-md-8">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="row justify-content-center contentrow-4 ">
+                <a href="https://www.instagram.com/memes/?hl=en" target="none">Want to see some more?</a>
             </div>
         </div>
     </div>
-    <div class="container footer sticky-bottom ">
-        <div class="row justify-content-md-center">
-            <footer>
-                <h1>Hello I am the footer!</h1>
-            </footer>
+    <div style="height: 100px;"></div>
+    <div class="container-fluid footer sticky-bottom" style="padding-top: 50px; padding-bottom: 50px;">
+        <div class="row justify-content-center">
+            <h2>No sources for this one <i class="fas fa-smile-wink"></i></h2>
         </div>
     </div>
+    <script>
+        function movemid() {
+            document.getElementById('middle').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            })
+        }
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
